@@ -22,8 +22,8 @@
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
   </dcat:Distribution>
   <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4">
-    <dct:title xml:lang="en"> Export Situation Survey</dct:title>
-    <dct:title xml:lang="es">Encuesta de Coyuntura de la Exportacion</dct:title>
+    <dct:title xml:lang="en"> Test Fed Export Situation Survey</dct:title>
+    <dct:title xml:lang="es"> Test Fed Encuesta de Coyuntura de la Exportacion</dct:title>
     <dct:description xml:lang="en">Dataset containing Export Situation Survey</dct:description>
     <dct:description xml:lang="es">Conjunto de datos que contiene la encuesta de Coyuntura de la Exportacion</dct:description>
     <dcat:landingPage>
