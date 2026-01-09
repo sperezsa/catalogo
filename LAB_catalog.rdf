@@ -1,348 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF
-  xmlns:dcat="http://www.w3.org/ns/dcat#"
-  xmlns:odrs="http://schema.theodi.org/odrs#"
-  xmlns:adms="http://www.w3.org/ns/adms#"
   xmlns:dct="http://purl.org/dc/terms/"
-  xmlns:hydra="http://www.w3.org/ns/hydra/core#"
-  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
-  xmlns:locn="http://www.w3.org/ns/locn#"
-  xmlns:cnt="http://www.w3.org/2011/content#"
-  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
   xmlns:dcatap="http://data.europa.eu/r5r/"
-  xmlns:owl="http://www.w3.org/2002/07/owl#"
-  xmlns:eli="http://data.europa.eu/eli/ontology#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <dcat:Catalog rdf:about="https://svjc-test-dato.ttec.es:8443">
-    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
-    <dct:language>
-      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
-    </dct:language>
-    <dct:spatial>
-      <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen">
-        <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.2900 37.3800, -2.4400 37.3800, -2.4400 38.5300, -4.2900 38.5300, -4.2900 37.3800))</locn:geometry>
-      </dct:Location>
-    </dct:spatial>
-    <dcat:themeTaxonomy rdf:resource="http://inspire.ec.europa.eu/theme"/>
-    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
-    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
-    <foaf:homepage rdf:resource="https://svjc-test-dato.ttec.es:8443"/>
-    <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
-    <dct:conformsTo rdf:resource="http://data.europa.eu/r5r/"/>
-    <dct:rights>
-      <odrs:RightsStatement rdf:about="https://svjc-test-dato.ttec.es:8443/rights">
-        <rdfs:label xml:lang="en">Rights related to the re-use of the Open Data Catalogue</rdfs:label>
-        <rdfs:label xml:lang="es">Derechos relativos a la reutilización del Catálogo de Datos Abiertos</rdfs:label>
-        <odrs:attributionText xml:lang="en">Attribution of authorship to the organisation.</odrs:attributionText>
-        <odrs:attributionText xml:lang="es">Atribución de la autoría al organismo.</odrs:attributionText>
-        <odrs:dataLicense rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <odrs:attributionURL rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </odrs:RightsStatement>
-    </dct:rights>
-    <dct:title xml:lang="en">CKAN</dct:title>
-    <dct:title xml:lang="es">CKAN</dct:title>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T13:13:55+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T13:13:39+00:00</dct:issued>
-    <dct:publisher>
-      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000">
-        <foaf:name xml:lang="es">Organismo publicador del Catálogo</foaf:name>
-        <foaf:mbox>organismo@example.org</foaf:mbox>
-        <foaf:homepage rdf:resource="https://organismo.example.org/"/>
-        <dct:type rdf:resource="http://purl.org/adms/publishertype/NonProfitOrganisation"/>
-        <dct:identifier>EA0000000</dct:identifier>
-      </foaf:Agent>
-    </dct:publisher>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee">
-        <dct:title xml:lang="en">Compras Ayuntamiento Capellanías</dct:title>
-        <dct:title xml:lang="es">Compras Ayuntamiento Capellanías</dct:title>
-        <dct:description xml:lang="en">test</dct:description>
-        <dct:description xml:lang="es">teest</dct:description>
-        <dcat:landingPage rdf:resource="https://svjc-test-dato.ttec.es:8443/es/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee"/>
-        <dct:identifier>Capellanías-2024</dct:identifier>
-        <dct:type rdf:resource="http://id.loc.gov/vocabulary/marcgt/leg"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/deporte"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Jaen"/>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY"/>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee/resource/e16c0c69-6263-4660-82af-f41d2d018f87"/>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-        <dcatap:hvdCategory rdf:resource="http://data.europa.eu/bna/c_be47b010"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <dct:title xml:lang="es">test SEC</dct:title>
-        <dct:description xml:lang="es">Conjunto de datos que contiene el histórico de la encuesta de Coyuntura de la Exportación (datos desde 2007)</dct:description>
-        <dcat:landingPage rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e"/>
-        <dct:identifier>mineco-2</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/QUARTERLY"/>
-        <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
-        <dcat:keyword xml:lang="es">comercio</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-05T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="N30e4cb09426c4bd8875c4e1f21043f55">
-            <vcard:fn xml:lang="es">Nombre_x</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:test_x@economia.gob.es"/>
-            <vcard:hasURL rdf:resource="https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Paginas/Encuesta-de-coyuntura.aspx"/>
-            <vcard:role rdf:resource="http://id.loc.gov/vocabulary/relators/mdc"/>
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="N040e6685a470492baaaa11df9a7b8ad3">
-            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-01-01T00:00:00+00:00</dcat:startDate>
-            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-01T00:00:00+00:00</dcat:endDate>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/b71f61af-d030-4f21-b825-d8ab6278e123"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/386294a4-72d0-4fab-b833-3d606773f5df"/>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <dct:title xml:lang="es">test DGAE</dct:title>
-        <dct:description xml:lang="es">Dataset de ejemplo sobre DGAE que es un departamento de MINECO</dct:description>
-        <dcat:landingPage rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4"/>
-        <dct:identifier>mineco-1</dct:identifier>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/DAILY"/>
-        <dct:type rdf:resource="http://id.loc.gov/vocabulary/marcgt/gov"/>
-        <dcat:keyword xml:lang="es">comercio</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dct:source rdf:resource="https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"/>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Ned59b7d3c9744b448911792f7e0f72b6">
-            <vcard:fn xml:lang="es">Mariano X</vcard:fn>
-            <vcard:hasEmail rdf:resource="mailto:test1@economia.gob.es"/>
-            <vcard:hasURL rdf:resource="https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"/>
-            <vcard:role rdf:resource="http://id.loc.gov/vocabulary/relators/mdc"/>
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dct:temporal>
-          <dct:PeriodOfTime rdf:nodeID="N8a7d704a32454ea6ac4ce04e8d38c2ad">
-            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1980-07-07T00:00:00+00:00</dcat:startDate>
-            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-29T00:00:00+00:00</dcat:endDate>
-          </dct:PeriodOfTime>
-        </dct:temporal>
-        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY"/>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4/resource/03cf6864-d8b2-4129-aabf-3b5a81f00fc6"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4/resource/09fd84c6-9e63-4f26-a6e4-4fb899e59138"/>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/56b9feb0-c1e1-42a3-84ba-bc96c335587a">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
-        <dct:title xml:lang="en">Estadísticas de la Dirección General de Tráfico 2021. Anuario Estadístico del Ministerio del Interior</dct:title>
-        <dct:title xml:lang="es">Estadísticas de la Dirección General de Tráfico 2021. Anuario Estadístico del Ministerio del Interior</dct:title>
-        <dct:description xml:lang="en">Conocimiento de los ámbitos principales competencia de la Dirección General de Tráfico: conductores, vehículos y accidentes de tráfico con víctimas</dct:description>
-        <dct:description xml:lang="es">Conocimiento de los ámbitos principales competencia de la Dirección General de Tráfico: conductores, vehículos y accidentes de tráfico con víctimas</dct:description>
-        <dcat:landingPage rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/56b9feb0-c1e1-42a3-84ba-bc96c335587a"/>
-        <dct:identifier>Anuario-Estadístico-del-Ministerio-del-Interior</dct:identifier>
-        <dct:type rdf:resource="http://id.loc.gov/vocabulary/marcgt/gov"/>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/transporte"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/56b9feb0-c1e1-42a3-84ba-bc96c335587a/resource/e45414b4-866b-4e38-8a19-96c6de3ae311"/>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </dcat:Dataset>
-    </dcat:dataset>
-    <dcat:dataset>
-      <dcat:Dataset rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/eb70dc08-2fc7-427b-aad6-b8982926e4a5">
-        <dct:title xml:lang="es">Conjunto de Datos Económicos 2025</dct:title>
-        <dct:description xml:lang="es">Conjunto de datos sobre la economía española para el año 2025</dct:description>
-        <dcat:landingPage rdf:resource="https://svjc-test-dato.ttec.es:8443/en/dataset/eb70dc08-2fc7-427b-aad6-b8982926e4a5"/>
-        <dct:identifier>E05234801-2025</dct:identifier>
-        <owl:versionInfo>1</owl:versionInfo>
-        <adms:versionNotes xml:lang="es">Versión 1.0</adms:versionNotes>
-        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
-        <dct:type rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResourceType/dataset"/>
-        <dcat:keyword xml:lang="es">abiertos</dcat:keyword>
-        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T00:00:00+00:00</dct:modified>
-        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T00:00:00+00:00</dct:issued>
-        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-        <dct:conformsTo>Norma ISO 8000</dct:conformsTo>
-        <dct:isReferencedBy>Recurso relacionado con el INE</dct:isReferencedBy>
-        <dct:isReferencedBy>Referencia a fuentes estadísticas</dct:isReferencedBy>
-        <dct:source>Origen oficial</dct:source>
-        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
-        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
-        <dcat:contactPoint>
-          <vcard:Kind rdf:nodeID="Nf645970b342c439f82574783c3f094b7">
-            <vcard:fn xml:lang="es">Juan Pérez</vcard:fn>
-            <vcard:role rdf:resource="http://id.loc.gov/vocabulary/relators/mdc"/>
-          </vcard:Kind>
-        </dcat:contactPoint>
-        <dct:creator>
-          <foaf:Agent rdf:nodeID="Nc7ccb755f23647c6bbd9238669e374fd">
-            <foaf:name xml:lang="es">E05234801</foaf:name>
-            <foaf:mbox rdf:resource="mailto:organismo@example.org"/>
-            <dct:type rdf:resource="http://purl.org/adms/publishertype/NonProfitOrganisation"/>
-            <dct:identifier>EA0000000</dct:identifier>
-          </foaf:Agent>
-        </dct:creator>
-        <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-        <dct:provenance>
-          <dct:ProvenanceStatement rdf:nodeID="N73a421422e264338983a3dc7b00022fc">
-            <dct:description xml:lang="es">Procedencia oficial</dct:description>
-          </dct:ProvenanceStatement>
-        </dct:provenance>
-        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-        <dcat:distribution rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/eb70dc08-2fc7-427b-aad6-b8982926e4a5/resource/e5d6fb3b-f45f-4939-89be-b2768e65a355"/>
-        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
-        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">100</dcat:spatialResolutionInMeters>
-        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0000000"/>
-      </dcat:Dataset>
-    </dcat:dataset>
-  </dcat:Catalog>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/386294a4-72d0-4fab-b833-3d606773f5df">
-    <dct:title xml:lang="en">Histórico de la Encuesta de Coyuntura de la Exportación ENG</dct:title>
-    <dct:title xml:lang="es">Histórico de la Encuesta de Coyuntura de la Exportación ENG</dct:title>
-    <dct:description xml:lang="en">Descripción del histórico de la Encuesta de Coyuntura de la Exportación ENG</dct:description>
-    <dct:description xml:lang="es">Descripción del histórico de la Encuesta de Coyuntura de la Exportación ENG</dct:description>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4/resource/14a55997-b849-435e-9d62-bd219ada0079">
+    <dct:title xml:lang="en">Distro Encuesta Coyuntura de la Exportacion</dct:title>
+    <dct:title xml:lang="es">Distro Encuesta Coyuntura de la Exportacion</dct:title>
     <dct:license>
       <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
         <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
       </rdf:Description>
     </dct:license>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/386294a4-72d0-4fab-b833-3d606773f5df"/>
-    <dcat:downloadURL rdf:resource="https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Coyuntura/serie_historica_EN.xlsx"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-05T00:00:00+00:00</dct:issued>
+    <dcat:accessURL rdf:resource="https://172.17.8.173:8443/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4/resource/14a55997-b849-435e-9d62-bd219ada0079"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:issued>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
     <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
   </dcat:Distribution>
-  <hydra:PagedCollection rdf:about="https://svjc-test-dato.ttec.es:8443/catalog.rdf?page=1">
-    <hydra:firstPage>https://svjc-test-dato.ttec.es:8443/catalog.rdf?page=1</hydra:firstPage>
-    <hydra:first>https://svjc-test-dato.ttec.es:8443/catalog.rdf?page=1</hydra:first>
-    <hydra:lastPage>https://svjc-test-dato.ttec.es:8443/catalog.rdf?page=1</hydra:lastPage>
-    <hydra:last>https://svjc-test-dato.ttec.es:8443/catalog.rdf?page=1</hydra:last>
-    <hydra:totalItems rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hydra:totalItems>
-    <hydra:itemsPerPage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hydra:itemsPerPage>
-  </hydra:PagedCollection>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/b71f61af-d030-4f21-b825-d8ab6278e123">
-    <dct:title xml:lang="en">Histórico de la Encuesta de Coyuntura de la Exportación</dct:title>
-    <dct:title xml:lang="es">Histórico de la Encuesta de Coyuntura de la Exportación</dct:title>
-    <dct:description xml:lang="en">Descripción del histórico de la Encuesta de Coyuntura de la Exportación</dct:description>
-    <dct:description xml:lang="es">Descripción del histórico de la Encuesta de Coyuntura de la Exportación</dct:description>
+  <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4">
+    <dct:title xml:lang="en"> Test Fed Export Situation Survey</dct:title>
+    <dct:title xml:lang="es"> Test Fed Encuesta de Coyuntura de la Exportacion</dct:title>
+    <dct:description xml:lang="en">Dataset containing Export Situation Survey</dct:description>
+    <dct:description xml:lang="es">Conjunto de datos que contiene la encuesta de Coyuntura de la Exportacion</dct:description>
+    <dcat:landingPage>
+      <foaf:Document rdf:about="https://172.17.8.173:8443/es/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4"/>
+    </dcat:landingPage>
+    <dct:identifier>encuesta-coyuntura-exp</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:issued>
     <dct:language>
       <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
     </dct:language>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
     <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/22546909-350a-451d-8366-9d29d1b9563e/resource/b71f61af-d030-4f21-b825-d8ab6278e123"/>
-    <dcat:downloadURL rdf:resource="https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Coyuntura/serie_historica.xlsx"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-05T00:00:00+00:00</dct:issued>
     <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-  </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4/resource/03cf6864-d8b2-4129-aabf-3b5a81f00fc6">
-    <dct:title xml:lang="en">Descipción de la distribución recomendado PDF</dct:title>
-    <dct:title xml:lang="es">Descipción de la distribución recomendado PDF</dct:title>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license>
-      <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY">
-        <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
-      </rdf:Description>
-    </dct:license>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4/resource/03cf6864-d8b2-4129-aabf-3b5a81f00fc6"/>
-    <dcat:downloadURL rdf:resource="http://www.pdf995.com/samples/pdf.pdf"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-  </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/eb70dc08-2fc7-427b-aad6-b8982926e4a5/resource/e5d6fb3b-f45f-4939-89be-b2768e65a355">
-    <dct:title xml:lang="en">Conjunto de Datos Económicos 2025.xlsx</dct:title>
-    <dct:title xml:lang="es">Conjunto de Datos Económicos 2025.xlsx</dct:title>
-    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/en/dataset/conjunto-de-datos-economicos-2025/resource/e5d6fb3b-f45f-4939-89be-b2768e65a355"/>
-    <dcat:downloadURL rdf:resource="https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Coyuntura/Encuesta-Coyuntura-resultados.xlsx"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-24T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4365</dcat:byteSize>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-  </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee/resource/e16c0c69-6263-4660-82af-f41d2d018f87">
-    <dct:title xml:lang="en">Dataset_Ejemplo.csv</dct:title>
-    <dct:title xml:lang="es">Dataset_Ejemplo.csv</dct:title>
-    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY"/>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/es/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee/resource/e16c0c69-6263-4660-82af-f41d2d018f87"/>
-    <dcat:downloadURL rdf:resource="https://svjc-test-dato.ttec.es:8443/es/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee/resource/e16c0c69-6263-4660-82af-f41d2d018f87/download/dataset_ejemplo.csv"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-05T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-    <dcatap:applicableLegislation>
-      <eli:LegalResource rdf:about="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
-    </dcatap:applicableLegislation>
-  </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/56b9feb0-c1e1-42a3-84ba-bc96c335587a/resource/e45414b4-866b-4e38-8a19-96c6de3ae311">
-    <dct:title xml:lang="en">Fichero con datos de los principales resultados de las estadísticas de la Dirección General de Tráfico 2021</dct:title>
-    <dct:title xml:lang="es">Fichero con datos de los principales resultados de las estadísticas de la Dirección General de Tráfico 2021</dct:title>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
-    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
-    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"/>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/anuario-estadistico-del-ministerio-del-interior/resource/e45414b4-866b-4e38-8a19-96c6de3ae311"/>
-    <dcat:downloadURL rdf:resource="https://www.interior.gob.es/opencms/pdf/archivos-y-documentacion/documentacion-y-publicaciones/anuarios-y-estadisticas/anuarios-estadisticos-anteriores/anuario-estadistico-de-2021/05_Tablas_apartado_5_1.xlsx"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-06T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-  </dcat:Distribution>
-  <dcat:Distribution rdf:about="https://svjc-test-dato.ttec.es:8443/dataset/02482712-164f-4f99-a515-8db4d9cab5f4/resource/09fd84c6-9e63-4f26-a6e4-4fb899e59138">
-    <dct:title xml:lang="en">Descipción de la distribución recomendado ZIP</dct:title>
-    <dct:title xml:lang="es">Descipción de la distribución recomendado ZIP</dct:title>
-    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
-    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY"/>
-    <dcat:accessURL rdf:resource="https://svjc-test-dato.ttec.es:8443/dataset/mineco-1/resource/09fd84c6-9e63-4f26-a6e4-4fb899e59138"/>
-    <dcat:downloadURL rdf:resource="https://portal.mineco.gob.es/economiayempresa/EconomiaInformesMacro/Documents/bdsicecsv.zip"/>
-    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:modified>
-    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-07T00:00:00+00:00</dct:issued>
-    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
-    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
-  </dcat:Distribution>
-  <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España">
-    <locn:geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-18.1600 27.6400, 4.3200 27.6400, 4.3200 43.7900, -18.1600 43.7900, -18.1600 27.6400))</locn:geometry>
-  </dct:Location>
-  <foaf:Document rdf:about="https://svjc-test-dato.ttec.es:8443/es/dataset/36c279f1-bbfb-4aad-a0db-61a8b45483ee"/>
-  <foaf:Document rdf:about="https://svjc-test-dato.ttec.es:8443/en/dataset/eb70dc08-2fc7-427b-aad6-b8982926e4a5"/>
+    <dcat:distribution rdf:resource="https://172.17.8.173:8443/dataset/339f6205-0756-41c4-9dc3-dd5db32d0ec4/resource/14a55997-b849-435e-9d62-bd219ada0079"/>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801">
+        <foaf:name xml:lang="es">Ministerio de Economía, Comercio y Empresa</foaf:name>
+        <foaf:mbox>mineco@example.org</foaf:mbox>
+        <foaf:homepage rdf:resource="https://portal.mineco.gob.es/es-es/Paginas/index.aspx"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>E05234801</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+  </dcat:Dataset>
 </rdf:RDF>
