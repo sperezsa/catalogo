@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <dcat:Catalog rdf:about="https://ejemplo.gob.es/catalogo/prueba">
+    <dct:title xml:lang="es">Catálogo de Prueba de Exportación</dct:title>
+    <dct:description xml:lang="es">Catálogo demo para pruebas de federación</dct:description>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:modified>
+    <foaf:homepage rdf:resource="https://portal.mineco.gob.es/"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    
+    <dcat:dataset rdf:resource="https://ejemplo.gob.es/dataset/encuesta-exportacion"/>
+  </dcat:Catalog>
+
+  <dcat:Dataset rdf:about="https://ejemplo.gob.es/dataset/encuesta-exportacion">
+    <dct:title xml:lang="es">Test Fed Encuesta de Coyuntura de la Exportacion</dct:title>
+    <dct:description xml:lang="es">Conjunto de datos que contiene la encuesta de Coyuntura de la Exportacion</dct:description>
+    <dct:identifier>encuesta-coyuntura-exp</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-09T00:00:00+00:00</dct:modified>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/comercio"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801">
+        <foaf:name xml:lang="es">Ministerio de Economía, Comercio y Empresa</foaf:name>
+        <foaf:mbox>mineco@example.org</foaf:mbox>
+        <foaf:homepage rdf:resource="https://portal.mineco.gob.es/"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>E05234801</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dcat:distribution rdf:resource="https://ejemplo.gob.es/dataset/encuesta-exportacion/resource/1"/>
+  </dcat:Dataset>
+
+  <dcat:Distribution rdf:about="https://ejemplo.gob.es/dataset/encuesta-exportacion/resource/1">
+    <dct:title xml:lang="es">Fichero XLSX de Encuesta Coyuntura de la Exportacion</dct:title>
+    <dcat:accessURL rdf:resource="https://comercio.gob.es/ImportacionExportacion/Informes_Estadisticas/Coyuntura/Encuesta-Coyuntura-resultados.xlsx"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+  </dcat:Distribution>
+</rdf:RDF>
