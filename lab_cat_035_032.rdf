@@ -43,7 +43,9 @@
         <dcat:accessURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
         <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
         <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
-		<dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560#:~:text=Subir-"/>
+		<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
+		<dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+		<dct:description xml:lang="es">descripcion</dct:description>
       </dcat:Distribution>
     </dcat:distribution>
     <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
@@ -246,8 +248,7 @@
     <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3Y6M4DT12H30M5S</dcat:temporalResolution>
     <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</dcat:spatialResolutionInMeters>
     <dcat:downloadURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
-	<dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560#:~:text=Subir-"/>
-	<dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+	<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
   </dcat:Distribution>
   <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e/resource/edd79131-a0e1-4b69-928b-adbd41223555">
     <dct:title xml:lang="es">distro uno</dct:title>
@@ -255,7 +256,7 @@
     <dcat:accessURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
-	<dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560#:~:text=Subir-"/>
+	<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
 	<dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
   </dcat:Distribution>
   <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears">
@@ -271,7 +272,7 @@
     <dcat:accessURL rdf:resource="http://portal.mineco.gob.es/economiayempresa/EconomiaInformesMacro/Documents/bdsicecsv.zip"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-18T00:00:00+00:00</dct:issued>
-	<dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560#:~:text=Subir-"/>
+	<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
 	<dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
   </dcat:Distribution>
   <foaf:Document rdf:about="https://172.17.8.173:8443/es/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e"/>
@@ -279,8 +280,9 @@
     <dcat:accessURL rdf:resource="https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"/>
     <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
-	<dcatap:applicableLegislation rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2011-17560#:~:text=Subir-"/>
+	<dcatap:applicableLegislation rdf:resource="http://data.europa.eu/eli/reg_impl/2023/138/oj"/>
 	<dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"/>
+	<dct:description xml:lang="es">descripcion</dct:description>
   </dcat:Distribution>
   <foaf:Document rdf:about="https://172.17.8.173:8443/es/dataset/96cd502a-32f0-40df-b320-54cd315d4e85"/>
   <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
