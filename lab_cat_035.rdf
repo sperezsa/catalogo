@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:adms="http://www.w3.org/ns/adms#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:locn="http://www.w3.org/ns/locn#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:odrl="http://www.w3.org/ns/odrl/2/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcatap="http://data.europa.eu/r5r/"
+>
+  <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/94d2f0fc-5ec1-4c16-b262-a1387e8d0d9a">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+    <dct:title xml:lang="es">ejemplo dos</dct:title>
+    <dct:description xml:lang="es">ejemplo dos descripcion </dct:description>
+	<dcat:landingPage rdf:resource="https://172.17.8.173:8443/dataset/94d2f0fc-5ec1-4c16-b262-a1387e8d0d9a"/>
+    <dct:identifier>ejemplo-dos</dct:identifier>
+    <dcat:keyword xml:lang="es">dos</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
+    <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/medio-rural-pesca"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+    <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/tn"/>
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/94d2f0fc-5ec1-4c16-b262-a1387e8d0d9a/resource/88e91313-9b7c-4afc-af44-886e219ba7cc">
+        <dcat:accessURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
+      </dcat:Distribution>
+    </dcat:distribution>
+    <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+  </dcat:Dataset>
+  <foaf:Document rdf:about="https://172.17.8.173:8443/en/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4"/>
+  <rdf:Description rdf:about="https://172.17.8.173:8443/dataset/96cd502a-32f0-40df-b320-54cd315d4e85/resource/e660f3d9-3cc9-465c-b935-e20e0da08d12/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+  </rdf:Description>
+  <dcat:Catalog rdf:about="https://172.17.8.173:8443">
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+	<dcat:themeTaxonomy rdf:resource="http://inspire.ec.europa.eu/theme"/>
+    <dcat:themeTaxonomy rdf:resource="http://datos.gob.es/kos/sector-publico/sector"/>
+    <dcat:themeTaxonomy rdf:resource="http://publications.europa.eu/resource/authority/data-theme"/>
+    <foaf:homepage rdf:resource="https://172.17.8.173:8443"/>
+    <dct:title xml:lang="en">CKAN</dct:title>
+    <dct:title xml:lang="es">CKAN</dct:title>
+	<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-26T13:21:34.747659+00:00</dct:issued>
+	<dct:description xml:lang="es">Catálogo LAB mineco</dct:description>
+	<dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+	<dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:publisher>
+      <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801">
+        <foaf:name xml:lang="es">Organismo publicador del Catálogo</foaf:name>
+        <foaf:mbox>organismo@example.org</foaf:mbox>
+        <foaf:homepage rdf:resource="https://organismo.example.org/"/>
+        <dct:type rdf:resource="http://purl.org/adms/publishertype/NationalAuthority"/>
+        <dct:identifier>E05234801</dct:identifier>
+      </foaf:Agent>
+    </dct:publisher>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T12:03:43+00:00</dct:modified>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4">
+        <dct:title xml:lang="es">todos</dct:title>
+        <dct:description xml:lang="es">todos descripcion</dct:description>
+		<dcat:landingPage rdf:resource="https://portal.mineco.gob.es/"/>
+        <dct:identifier>todos</dct:identifier>
+        <owl:versionInfo>21.03</owl:versionInfo>
+        <adms:versionNotes xml:lang="es">tener en cuenta esta nota</adms:versionNotes>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/HOURLY"/>
+        <dct:type rdf:resource="http://publications.europa.eu/resource/authority/dataset-type/TEST_DATA"/>
+        <dcat:keyword xml:lang="es">mas</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-21T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:source rdf:resource="https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/so"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="N389af3ac27534528a67117785fcef9c6">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-01T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:provenance>
+          <dct:ProvenanceStatement rdf:nodeID="N4e104c88295e42718762d30a0cedfeb0">
+            <dct:description xml:lang="es">picachu</dct:description>
+          </dct:ProvenanceStatement>
+        </dct:provenance>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/CONFIDENTIAL"/>
+        <dcat:distribution rdf:resource="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/0898aa89-52f1-4069-b982-9f7400a2d41f"/>
+        <dcat:distribution rdf:resource="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/5cce82db-ce08-4b7c-a77f-9226acb23702"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/DEVELOP"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">25</dcat:spatialResolutionInMeters>
+	    <dct:spatial>
+		  <dct:Location rdf:nodeID="N77968c6fdbf54e5fa6e2c10363b404ca">
+            <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.5000 43.8000, 3.3000 42.3000, 4.3000 40.0000, -5.6000 36.0000, -9.5000 37.0000, -9.5000 43.8000))</locn:Geometry>
+            <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.5000 43.8000, 3.3000 42.3000, 4.3000 40.0000, -5.6000 36.0000, -9.5000 37.0000, -9.5000 43.8000))</dcat:bbox>
+            <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.9200 35.7150)</dcat:centroid>
+		  </dct:Location>
+		</dct:spatial>
+	    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</dcat:temporalResolution>
+        <adms:identifier>
+          <adms:Identifier rdf:nodeID="N98e94099294d49ea8ca97c40085ee586">
+            <skos:notation>ES-INSPIRE-456</skos:notation>
+            <dct:identifier>lo que sea</dct:identifier>
+            <foaf:page>identifier doc</foaf:page>
+            <dct:format>coment (este campo está mal)</dct:format>
+            <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-19T00:00:00+00:00</dct:issued>
+            <rdfs:comment>esta confundido con el otro campo</rdfs:comment>
+          </adms:Identifier>
+        </adms:identifier>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N80baa149628a464e9c98daf1d6b69434">
+            <vcard:fn xml:lang="es">Dir Gen Ana Econ</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:test_1@economia.gob.es"/>
+            <vcard:hasURL rdf:resource="https://portal.mineco.gob.es"/>
+            <vcard:organization-name xml:lang="es">Ministerio de Economía y Comercio</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+            <vcard:hasTelephone rdf:resource="tel:'+34912582852"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e">
+        <dct:title xml:lang="es">ejemplo uno</dct:title>
+        <dct:description xml:lang="es">ejemplo uno desc</dct:description>
+		<dcat:landingPage rdf:resource="https://172.17.8.173:8443/es/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e"/>
+        <dct:identifier>ejemplo-uno</dct:identifier>
+        <dcat:keyword xml:lang="es">uno</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/ad"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/au"/>
+        <dcat:theme rdf:resource="http://inspire.ec.europa.eu/theme/af"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://172.17.8.173:8443/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e/resource/edd79131-a0e1-4b69-928b-adbd41223555"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dct:spatial>
+          <dct:Location rdf:nodeID="N6c39d07b28a44f989fdafc321dab47f7">
+            <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-4.5800 40.5000, -3.5000 41.2000, -3.0000 40.2000, -3.9000 39.8800, -4.6000 40.2000, -4.5800 40.5000))</dcat:bbox>
+          </dct:Location>
+        </dct:spatial>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="Ne6bd4ccb9bbd47788e20b8df3f412ef9">
+            <vcard:fn xml:lang="es">Dir Gen Ana Econ</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:test_1@economia.gob.es"/>
+            <vcard:hasURL rdf:resource="https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"/>
+            <vcard:organization-name xml:lang="es">E05234801-1</vcard:organization-name>
+            <vcard:hasUID rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+            <vcard:hasTelephone rdf:resource="tel:'+34912582852"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+    <dcat:dataset rdf:resource="https://172.17.8.173:8443/dataset/94d2f0fc-5ec1-4c16-b262-a1387e8d0d9a"/>
+    <dcat:dataset>
+      <dcat:Dataset rdf:about="https://172.17.8.173:8443/dataset/96cd502a-32f0-40df-b320-54cd315d4e85">
+        <dct:title xml:lang="es">Estadísticas sobre el personal Militares de Carrera y su distribución por empleo, provincias, ejércitos, situación administrativa</dct:title>
+        <dct:description xml:lang="es">Estadística que forma parte del Anuario Estadístico Militar en cumplimiento de lo regulado por el Plan Estadístico de la Defensa (PLANESTADEF), se reúnen en una única publicación, donde se coleccionan todas las tablas de cada estadística monográfica.&#13;
+&#13;
+Ofrece información sobre las situaciones administrativas, categorías de empleos públicos, escalas y empleos militar; distribuciones por provincias, géneros, etc.&#13;
+&#13;
+La calidad de la información que contiene esta obra se apoya tanto en los procesos de depuración y corrección a que fueron sometidos los datos, cuando se elaboraron las correspondientes estadísticas, como en la exactitud con que estos datos desagregados fueron facilitados por los organismos depositarios de la información, siendo esta exactitud una premisa fundamental que define, en general, la calidad de cualquier información estadística.&#13;
+&#13;
+Se agradece la colaboración de los organismos que han facilitado los datos, imprescindibles para la publicación de esta obra. Igualmente, la Unidad de Estadística del Órgano Central del Ministerio de Defensa está abierta a todo tipo de sugerencias que contribuyan a mejorar y completar la información publicada.&#13;
+</dct:description>
+		<dcat:landingPage rdf:resource="https://172.17.8.173:8443/es/dataset/96cd502a-32f0-40df-b320-54cd315d4e85"/>
+        <dct:identifier>Estadísticas de Personal de Carrera</dct:identifier>
+        <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+        <dcat:keyword xml:lang="es">empleos</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-12-31T00:00:00+00:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/seguridad"/>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:nodeID="Nfed351e785cd4871b54740815d3c6a71">
+            <dcat:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-01T00:00:00+00:00</dcat:startDate>
+            <dcat:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-31T00:00:00+00:00</dcat:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+        <dcat:distribution rdf:resource="https://172.17.8.173:8443/dataset/96cd502a-32f0-40df-b320-54cd315d4e85/resource/e660f3d9-3cc9-465c-b935-e20e0da08d12"/>
+        <adms:status rdf:resource="http://publications.europa.eu/resource/authority/distribution-status/COMPLETED"/>
+        <dcat:contactPoint>
+          <vcard:Kind rdf:nodeID="N57aa054310c94eee8eb79df16f7319a2">
+            <vcard:fn xml:lang="es">Contacto de pruebas</vcard:fn>
+            <vcard:hasEmail rdf:resource="mailto:test_1@economia.gob.es"/>
+          </vcard:Kind>
+        </dcat:contactPoint>
+      </dcat:Dataset>
+    </dcat:dataset>
+  </dcat:Catalog>
+  <dct:ProvenanceStatement rdf:nodeID="Nb4ec3a760ae6418d83c81f86d306d6de">
+    <dct:description xml:lang="en">picachu</dct:description>
+    <dct:description xml:lang="es">picachu</dct:description>
+  </dct:ProvenanceStatement>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/UnknownIPR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/5cce82db-ce08-4b7c-a77f-9226acb23702/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://172.17.8.173:8443/dataset/94d2f0fc-5ec1-4c16-b262-a1387e8d0d9a/resource/88e91313-9b7c-4afc-af44-886e219ba7cc/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/0898aa89-52f1-4069-b982-9f7400a2d41f/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://172.17.8.173:8443/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e/resource/edd79131-a0e1-4b69-928b-adbd41223555/dataservice">
+    <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801"/>
+  </rdf:Description>
+  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/0898aa89-52f1-4069-b982-9f7400a2d41f">
+    <dct:title xml:lang="es">distro todos</dct:title>
+    <dct:description xml:lang="es">descripcion de la distro</dct:description>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/SPA"/>
+    </dct:language>
+    <dct:language>
+      <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/CAT"/>
+    </dct:language>
+    <dct:license rdf:resource="http://data.europa.eu/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+    <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/pdf"/>
+    <dcat:accessURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-18T00:00:00+00:00</dct:issued>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10244</dcat:byteSize>
+    <dcatap:availability rdf:resource="http://publications.europa.eu/resource/authority/planned-availability/STABLE"/>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</dcat:temporalResolution>
+    <dcat:spatialResolutionInMeters rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">26</dcat:spatialResolutionInMeters>
+    <dcat:downloadURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
+  </dcat:Distribution>
+  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e/resource/edd79131-a0e1-4b69-928b-adbd41223555">
+    <dct:title xml:lang="es">distro uno</dct:title>
+    <dcat:accessURL rdf:resource="http://www.pdf995.com/samples/pdf"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  <dct:Location rdf:about="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Illes-Balears">
+    <locn:Geometry rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.5000 43.8000, 3.3000 42.3000, 4.3000 40.0000, -5.6000 36.0000, -9.5000 37.0000, -9.5000 43.8000))</locn:Geometry>
+    <dcat:bbox rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POLYGON ((-9.5000 43.8000, 3.3000 42.3000, 4.3000 40.0000, -5.6000 36.0000, -9.5000 37.0000, -9.5000 43.8000))</dcat:bbox>
+    <dcat:centroid rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral">POINT (-6.9200 35.7150)</dcat:centroid>
+  </dct:Location>
+  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/03f0d4ee-304e-4666-a34c-70377e4366a4/resource/5cce82db-ce08-4b7c-a77f-9226acb23702">
+    <dct:title xml:lang="es">distro dos</dct:title>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/CAT"/>
+    <dcat:accessURL rdf:resource="http://portal.mineco.gob.es/economiayempresa/EconomiaInformesMacro/Documents/bdsicecsv.zip"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-29T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-18T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://172.17.8.173:8443/es/dataset/1ce194f0-6ffb-44b4-a4d0-2bb2e8df7e7e"/>
+  <dcat:Distribution rdf:about="https://172.17.8.173:8443/dataset/96cd502a-32f0-40df-b320-54cd315d4e85/resource/e660f3d9-3cc9-465c-b935-e20e0da08d12">
+    <dcat:accessURL rdf:resource="https://publicaciones.defensa.gob.es/anuario-estadistico-militar-2023-pdf.html"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-28T00:00:00+00:00</dct:issued>
+  </dcat:Distribution>
+  <foaf:Document rdf:about="https://172.17.8.173:8443/es/dataset/96cd502a-32f0-40df-b320-54cd315d4e85"/>
+  <dct:LinguisticSystem rdf:about="http://publications.europa.eu/resource/authority/language/ENG"/>
+</rdf:RDF>
