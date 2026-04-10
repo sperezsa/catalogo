@@ -1,0 +1,2250 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "dcat": "http://www.w3.org/ns/dcat#",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dcatap": "http://data.europa.eu/r5r/",
+    "vcard": "http://www.w3.org/2006/vcard/ns#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "geo": "http://www.opengis.net/ont/geosparql#",
+    "locn": "http://www.w3.org/ns/locn#",
+    "time": "http://www.w3.org/2006/time#",
+    "adms": "http://www.w3.org/ns/adms#",
+    "odrl": "http://www.w3.org/ns/odrl/2/"
+  },
+  "@graph": [
+    {
+      "@id": "https://datos.organismo.es/catalogo",
+      "@type": "dcat:Catalog",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Catálogo de ejemplo",
+        "@language": "es"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Catalogo para pruebas con conjuntos de datos",
+        "@language": "es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:homepage": [
+        {
+          "@id": "https://catalogo.datosabiertos.miteco.gob.es/"
+        }
+      ],
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dcat:themeTaxonomy": {
+        "@id": "http://datos.gob.es/kos/sector-publico/sector"
+      },
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dcat:dataset": [
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-1"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-2"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-3"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-4"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-5"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-6"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-7"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-8"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-9"
+        },
+        {
+          "@id": "https://datos.organismo.es/dataset/E05234801-10"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-1",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 1",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 1",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
+      },
+      "dct:conformsTo": {
+        "@id": "http://www.opengis.net/def/serviceType/ogc/csw"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba1",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2007-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-06-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "DGAE 1",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test1@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "1"
+        }
+      ]
+    },
+    {
+      "@id": "1",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "pdf de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "http://www.pdf995.com/samples/pdf.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 1",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-2",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 2",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 2",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba2",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2012-05-11T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-03-08T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Dir Gen Ana Econ 2",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test2@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "2"
+        }
+      ]
+    },
+    {
+      "@id": "2",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "csv de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 2",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-3",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 3",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 3",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
+      },
+      "dct:conformsTo": {
+        "@id": "http://www.opengis.net/def/serviceType/ogc/csw"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba3",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2014-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria de Estado de Comercio 3",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test3@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "3"
+        }
+      ]
+    },
+    {
+      "@id": "3",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "pdf de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "http://www.pdf995.com/samples/pdf.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 3",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-4",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 4",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 4",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba4",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2007-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-06-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "DGAE 4",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test4@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "4"
+        }
+      ]
+    },
+    {
+      "@id": "4",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "csv de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 4",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-5",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 5",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 5",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY"
+      },
+      "dct:conformsTo": {
+        "@id": "http://www.opengis.net/def/serviceType/ogc/csw"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba5",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2012-05-11T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-03-08T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Dir Gen Ana Econ 5",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test5@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "5"
+        }
+      ]
+    },
+    {
+      "@id": "5",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "pdf de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "http://www.pdf995.com/samples/pdf.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 5",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-6",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 6",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 6",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba6",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2014-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria de Estado de Comercio 6",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test6@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "6"
+        }
+      ]
+    },
+    {
+      "@id": "6",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "csv de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 6",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-7",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 7",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 7",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
+      },
+      "dct:conformsTo": {
+        "@id": "http://www.opengis.net/def/serviceType/ogc/csw"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba7",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2007-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-06-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "DGAE 7",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test7@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "7"
+        }
+      ]
+    },
+    {
+      "@id": "7",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "pdf de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "http://www.pdf995.com/samples/pdf.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 7",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-8",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 8",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 8",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/EDUC"
+        },
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/QUARTERLY"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba8",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2012-05-11T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-03-08T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Dir Gen Ana Econ 8",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test8@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "8"
+        }
+      ]
+    },
+    {
+      "@id": "8",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "csv de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 8",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      }
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-9",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 9",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 9",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/AS_NEEDED"
+      },
+      "dct:conformsTo": {
+        "@id": "http://www.opengis.net/def/serviceType/ogc/csw"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba9",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2014-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-04-04T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "Secretaria de Estado de Comercio 9",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test9@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "9"
+        }
+      ]
+    },
+    {
+      "@id": "9",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "pdf de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "http://www.pdf995.com/samples/pdf.pdf"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/PDF"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 9",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "1024",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ]
+    },
+    {
+      "@type": "dcat:Dataset",
+      "@id": "https://datos.organismo.es/dataset/E05234801-10",
+      "dct:publisher": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:title": {
+        "@value": "Nombre CjtoDato 10",
+        "@language": "es"
+      },
+      "dct:creator": [
+        {
+          "@type": "foaf:Agent",
+          "dct:identifier": "http://datos.gob.es/recurso/sector-publico/org/Organismo/E05234801",
+          "dct:type": {
+            "@id": "http://purl.org/adms/publishertype/NationalAuthority"
+          },
+          "foaf:name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ]
+        }
+      ],
+      "dct:description": {
+        "@value": "Descripción Conjunto de Datos 10",
+        "@language": "es"
+      },
+      "dct:accessRights": {
+        "@id": "http://publications.europa.eu/resource/authority/access-right/PUBLIC"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:theme": [
+        {
+          "@id": "http://publications.europa.eu/resource/authority/data-theme/ECON"
+        },
+        {
+          "@id": "http://datos.gob.es/kos/sector-publico/sector/economia"
+        }
+      ],
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:accrualPeriodicity": {
+        "@id": "http://publications.europa.eu/resource/authority/frequency/UNKNOWN"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "https://www.boe.es/eli/es/rd/2023/08/22/729"
+      },
+      "dct:provenance": {
+        "@id": "http://procedencia.es"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:keyword": [
+        {
+          "@value": "prueba10",
+          "@language": "es"
+        }
+      ],
+      "dct:spatial": [
+        {
+          "@id": "http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"
+        }
+      ],
+      "dct:temporal": [
+        {
+          "@type": "dct:PeriodOfTime",
+          "dcat:startDate": {
+            "@value": "2007-01-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          },
+          "dcat:endDate": {
+            "@value": "2025-06-01T00:00:00+01:00",
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+          }
+        }
+      ],
+      "dcat:contactPoint": [
+        {
+          "@type": "vcard:Kind",
+          "vcard:organization-name": [
+            {
+              "@value": "Ministerio de Economía, Comercio y Empresa",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasUID": [
+            {
+              "@id": "E05234801"
+            }
+          ],
+          "vcard:fn": [
+            {
+              "@value": "DGAE 10",
+              "@language": "es"
+            }
+          ],
+          "vcard:hasEmail": [
+            {
+              "@id": "mailto:test10@economia.gob.es"
+            }
+          ],
+          "vcard:hasTelephone": [
+            {
+              "@id": "tel:+34912582852"
+            }
+          ],
+          "vcard:hasURL": [
+            {
+              "@id": "https://portal.mineco.gob.es/es-es/economiayempresa/EconomiaInformesMacro/Paginas/EconomiaInformesMacro.aspx"
+            }
+          ]
+        }
+      ],
+      "dcat:distribution": [
+        {
+          "@id": "10"
+        }
+      ]
+    },
+    {
+      "@id": "10",
+      "@type": "dcat:Distribution",
+      "dct:title": {
+        "@value": "csv de prueba",
+        "@language": "es"
+      },
+      "dcat:accessURL": {
+        "@id": "https://datosabiertos.cultura.gob.es/ES-MCU-000001.csv"
+      },
+      "dct:format": {
+        "@id": "http://publications.europa.eu/resource/authority/file-type/CSV"
+      },
+      "dct:license": {
+        "@id": "http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"
+      },
+      "dct:description": {
+        "@value": "Descripción de la distribución 10",
+        "@language": "es"
+      },
+      "foaf:page": {
+        "@id": "http://documentacion1.es"
+      },
+      "dct:language": {
+        "@id": "http://publications.europa.eu/resource/authority/language/SPA"
+      },
+      "dct:issued": [
+        {
+          "@value": "2026-02-01T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dct:modified": [
+        {
+          "@value": "2026-02-24T00:00:00+01:00",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        }
+      ],
+      "dcat:byteSize": [
+        {
+          "@value": "2048",
+          "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        }
+      ],
+      "dcatap:availability": {
+        "@id": "http://publications.europa.eu/resource/authority/planned-availability/AVAILABLE"
+      },
+      "dcatap:applicableLegislation": {
+        "@id": "http://data.europa.eu/eli/reg_impl/2023/138/oj"
+      },
+      "dcat:spatialResolutionInMeters": [
+        {
+          "@value": "5",
+          "@type": "http://www.w3.org/2001/XMLSchema#decimal"
+        }
+      ],
+      "dcat:mediaType": {
+        "@id": "https://www.iana.org/assignments/media-types/text/csv"
+      }
+    }
+  ]
+}
